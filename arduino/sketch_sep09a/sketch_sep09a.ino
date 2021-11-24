@@ -94,7 +94,7 @@ void loop()
     Serial.print(totalMilliLitres);
     Serial.print("mL / ");
     Serial.print(totalLitres);
-    String url= "http://138c-103-238-229-50.ngrok.io/val%20asdd%20sensor1/"+String(int(totalLitres));
+    String url= "http:ngrok.io/val%20asdd%20sensor1/"+String(int(totalLitres));
     Serial.print(url);
     http.begin(url.c_str());
     
