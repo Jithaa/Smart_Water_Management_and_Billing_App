@@ -2,8 +2,8 @@
 #include <SPI.h>
 #include <Wire.h>
 #include <HTTPClient.h>
-const char* ssid = "GURUPRANAV";
-const char* password = "15231523";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 #define OLED_RESET -1       // Reset pin # (or -1 if sharing Arduino reset pin)
  
 #define LED_BUILTIN 16
